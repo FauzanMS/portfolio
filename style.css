@@ -1,0 +1,94 @@
+
+.navbar{
+    background-color: rgb(216, 46, 3);
+    font-weight: bolder;
+    display: flex;
+    justify-items: space-between;
+    position: fixed;
+    width: 100%;
+}
+.nav-link:hover{
+      border-bottom: 5px solid Black;
+}
+body{
+    background-color: black;
+}
+.container{
+    color: red;
+    margin-top: 4%;
+}
+.background{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+.contain{
+    padding-top: 20%;
+    padding-left: 4%;
+}
+.cover{
+    background-color: rgba(255, 131, 131, 0.74);
+    width: 100%;
+    max-width:650px;
+    max-height: 420px;
+    text-align: center;
+    border-radius: 23px;
+    
+}
+#imgr{
+    width: 120%;
+    border: 3px solid red;
+}
+#school-list{
+    display: flex;
+    flex-direction: row;
+}
+#school-list li{
+    list-style: none;
+    margin-right: 5%;
+}
+.school-imgr{
+ margin-top: 12%;
+}
+
+#image{
+    padding-right: 8%;
+}
+
+
+@media (max-width: 780px) { 
+
+#rows{
+    display: flex;
+    flex-direction: column;
+}
+#image{
+    width: 80%;
+    padding-left: 16%;
+    text-align: center;
+}
+
+#school-info{
+    width: 100%;
+    padding-right: 16%;
+    padding-left: 12%;
+    font-size: 100%;
+    text-align: center;
+}
+.background{
+    background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+#school-list{
+    display: flex;
+    flex-direction: column;
+}
+.contain{
+    padding-right: 3%;
+}
+ }
