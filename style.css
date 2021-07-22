@@ -1,6 +1,9 @@
-
+/* #8d99ae */
+*{
+    font-family: "Roboto" , sans-serif;
+}
 .navbar{
-    background-color: rgb(216, 46, 3);
+    background-color: #333131;
     font-weight: bolder;
     display: flex;
     justify-items: space-between;
@@ -8,17 +11,17 @@
     width: 100%;
 }
 .nav-link:hover{
-      border-bottom: 5px solid Black;
+      border-bottom: 1px solid rgb(255, 252, 252);
 }
 body{
-    background-color: black;
+    background-color: rgb(39, 39, 39);
 }
 .container{
-    color: red;
+    color: rgb(182, 182, 182);
     margin-top: 4%;
 }
 .background{
-    background-image: url(back.jpg);
+    background-image: url("https://source.unsplash.com/1600x900/?nature,water");
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -26,11 +29,12 @@ body{
 }
 .contain{
     padding-top: 20%;
-    padding-left: 4%;
+    padding-left: 23%;
 }
 .cover{
-    background-color: rgba(255, 131, 131, 0.74);
+    background-color: rgba(82, 82, 82, 0.74);
     width: 100%;
+    color: white;
     max-width:650px;
     max-height: 420px;
     text-align: center;
@@ -38,8 +42,9 @@ body{
     
 }
 #imgr{
-    width: 120%;
-    border: 3px solid red;
+    width: 150%;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 13px;
 }
 #school-list{
     display: flex;
@@ -65,11 +70,10 @@ body{
     flex-direction: column;
 }
 #image{
-    width: 80%;
-    padding-left: 16%;
+    width: 74%;
+    padding-left: 1%;
     text-align: center;
 }
-
 #school-info{
     width: 100%;
     padding-right: 16%;
@@ -89,6 +93,7 @@ body{
     flex-direction: column;
 }
 .contain{
-    padding-right: 3%;
+    padding-left: 7%;
+    padding-right: 9%;
 }
  }
